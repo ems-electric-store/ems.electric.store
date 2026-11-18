@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Electro Mechanical Services (EMS)</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+      min-height: 100vh;
+      color: #f1f5f9;
+      padding: 40px 20px;
+    }
+    .container { max-width: 760px; margin: 0 auto; }
+    .header {
+      text-align: center;
+      background: rgba(30,41,59,0.95);
+      border: 1px solid rgba(99,102,241,0.2);
+      border-radius: 20px;
+      padding: 32px;
+      margin-bottom: 24px;
+    }
+    .logo { font-size: 40px; margin-bottom: 12px; }
+    .header h1 { font-size: 24px; font-weight: 800; color: #f8fafc; margin-bottom: 6px; }
+    .header p { color: #64748b; font-size: 13px; }
+    .badge {
+      display: inline-block;
+      background: rgba(99,102,241,0.15);
+      border: 1px solid rgba(99,102,241,0.3);
+      color: #818cf8;
+      padding: 3px 12px;
+      border-radius: 20px;
+      font-size: 11px;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+    .card {
+      background: rgba(30,41,59,0.95);
+      border: 1px solid rgba(99,102,241,0.15);
+      border-radius: 16px;
+      padding: 32px;
+      margin-bottom: 16px;
+    }
+    h2 {
+      font-size: 15px;
+      font-weight: 700;
+      color: #fbbf24;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    p { color: #94a3b8; font-size: 14px; line-height: 1.7; margin-bottom: 10px; }
+    p:last-child { margin-bottom: 0; }
+    a { color: #6366f1; text-decoration: none; }
+    a:hover { color: #818cf8; }
+    .nav {
+      text-align: center;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .nav a {
+      color: #475569;
+      font-size: 13px;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .nav a:hover { color: #94a3b8; }
+    .highlight {
+      background: rgba(99,102,241,0.1);
+      border-left: 3px solid #6366f1;
+      border-radius: 0 8px 8px 0;
+      padding: 12px 16px;
+      margin-top: 10px;
+    }
+    .highlight p { color: #a5b4fc; font-size: 13px; margin: 0; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="logo">🔒</div>
+      <div class="badge">PRIVACY POLICY</div>
+      <h1>Electro Mechanical Services (EMS)</h1>
+      <p>Last updated: November 2026 · Applies to EMS Store App</p>
+    </div>
+
+    <div class="card">
+      <h2>📋 1. Overview</h2>
+      <p>EMS Store is an offline-first Point of Sale and Inventory Management application built exclusively for Electro Mechanical Services. We take your privacy seriously. This policy explains how we handle your data.</p>
+      <div class="highlight">
+        <p>✅ We do NOT collect, sell, or share any personal data with third parties.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>💾 2. Data Storage</h2>
+      <p>All business data — including products, sales records, customer accounts, and store settings — is stored <strong>locally on your device</strong> using IndexedDB (browser storage). This data never leaves your device unless you explicitly enable Google Drive sync.</p>
+    </div>
+
+    <div class="card">
+      <h2>☁️ 3. Google Drive Integration</h2>
+      <p>Google Drive sync is an <strong>optional</strong> feature. When enabled:</p>
+      <p>• We request access only to files <strong>created by this app</strong> (using the <code>drive.file</code> scope).</p>
+      <p>• Your database is backed up to your personal Google Drive under the folder <strong>"ElectroMechanicalServices_DB"</strong>.</p>
+      <p>• We do <strong>not</strong> access any other files in your Google Drive.</p>
+      <p>• You can disconnect Google Drive at any time from Settings.</p>
+    </div>
+
+    <div class="card">
+      <h2>🔑 4. Google OAuth & Permissions</h2>
+      <p>When connecting Google Drive, we use Google's secure OAuth 2.0 protocol. We only request the minimum necessary permissions:</p>
+      <div class="highlight">
+        <p>🔹 <strong>drive.file</strong> — Read and write only the EMS backup file we create<br />
+        🔹 <strong>userinfo.email</strong> — Display your connected email address</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>🚫 5. What We Do NOT Do</h2>
+      <p>• We do not operate any servers or external databases.</p>
+      <p>• We do not collect analytics, usage data, or crash reports.</p>
+      <p>• We do not display advertisements.</p>
+      <p>• We do not share your data with any third parties.</p>
+    </div>
+
+    <div class="card">
+      <h2>🔐 6. Security</h2>
+      <p>Access to the EMS Store app is protected by PIN/Password authentication. Only authorized personnel with valid credentials can access store data. We recommend keeping your PIN confidential and changing it regularly from Settings.</p>
+    </div>
+
+    <div class="card">
+      <h2>📬 7. Contact Us</h2>
+      <p>For any privacy-related questions or concerns, please contact us at:</p>
+      <p>📧 <a href="mailto:ems.electricstore@gmail.com">ems.electricstore@gmail.com</a></p>
+    </div>
+
+    <div class="nav">
+      <a href="index.html">⚡ Home</a>
+      <a href="terms.html">📄 Terms of Service</a>
+      <a href="https://ems-electric-store-theta.vercel.app" target="_blank">🚀 Open App</a>
+    </div>
+  </div>
+</body>
+</html>
